@@ -1,3 +1,4 @@
+
 document.getElementById("add-here").addEventListener("click", function() {
 
     //inputField
@@ -7,7 +8,7 @@ document.getElementById("add-here").addEventListener("click", function() {
     const totalDepositAmount = parseFloat(totalDepositText);
    
 
-    //taggg
+    //TextField
     const allDeposit = document.getElementById("total-added");
     allDepositText=allDeposit.innerText;
     const totalDeposit = parseFloat(allDepositText);
@@ -41,7 +42,7 @@ document.getElementById("withdraw-here").addEventListener("click", function() {
     const totalWithdrawAmount = parseFloat(totalWithdrawText);
    
 
-    //textField
+    //TextField
     const allWithdraw = document.getElementById("total-withdraw");
     allWithdrawText=allWithdraw.innerText;
     const totalWithdraw = parseFloat(allWithdrawText);
@@ -57,7 +58,7 @@ document.getElementById("withdraw-here").addEventListener("click", function() {
     withdrawAmount.value='';
     // Total Withdraw here
 
-    if(totalWithdrawAmount>0 && totalMoney>=totalWithdrawAmount){
+    if(totalWithdrawAmount>0 && totalMoney>=totalWithdrawAmount && ){
         allWithdraw.innerText =totalWithdraw+totalWithdrawAmount;
         money.innerText = totalMoney-totalWithdrawAmount;
     }
