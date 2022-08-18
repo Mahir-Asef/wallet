@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Transaction</title>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="money">Here Is Your Wallet</h1>
+        <div>
+            <div class="section-1">
+                <div class="add">
+                    <h2>Total Added Money</h2>
+                    <h2>$<span id="total-added">0.00</span></h2>
+                </div>
+                <div class="withdraw">
+                    <h2>Total WithDraw Money</h2>
+                    <h2>$ <span id="total-withdraw">0.00</span></h2>
+                </div>
+                <div class="Total">
+                    <h2>Total Money</h2>
+                    <h2>$ <span id="total-money">1200</span></h2>
+                </div>
+            </div>
+            <div class="section-2">
+                <div class="deposit">
+                    <h2>Deposit Money Here</h2>
+                    <input id="deposit" placeholder="add your money here" type="text">
+                    <button id="add-here"> Add here</button>
+                </div>
+                <div class="withDraw">
+                    <h2>WithDraw Money Here</h2>
+                    <input id="withdraw" placeholder="add your money here" type="text">
+                    <button id="withdraw-here"> WithDraw</button>
+                </div>
+            </div>
+        </div>
+
+    <script src="./banking.js"></script>
+  </body>
+</html>

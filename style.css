@@ -1,0 +1,101 @@
+#money{
+    color:#900C3F;
+    text-align: center;
+}
+.add{
+    height: 200px;
+    max-width:100%;
+    background-color: chocolate;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+.withdraw{
+    height: 200px;
+    max-width:100%;
+    background-color: greenyellow;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+.Total{
+    height: 200px;
+    max-width:100%;
+    background-color: palevioletred;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#deposit{
+    padding: 10px;
+    border: #900C3F;
+    border-radius: 20px;
+    outline-offset:unset;
+}
+#add-here{
+    padding: 10px;
+    background-color: #900C3F;
+    border-radius: 10px;
+    color: white;
+}
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#withdraw{
+    padding: 10px;
+    border: #900C3F;
+    border-radius: 20px;
+    outline-offset:unset;
+}
+#withdraw-here{
+    padding: 10px;
+    background-color: #900C3F;
+    border-radius: 10px;
+    color: white;
+}
+.deposit{
+    height: 200px;
+    max-width:100%;
+    background-color: rgba(184, 104, 184, 0.747);
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+.withDraw{
+    height: 200px;
+    max-width:100%;
+    background-color:gainsboro;
+    border: 5px solid royalblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width:480px){
+    .section-1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
