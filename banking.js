@@ -18,7 +18,7 @@ document.getElementById("add-here").addEventListener("click", function() {
     allMoneyText=money.innerText;
     const totalMoney = parseFloat(allMoneyText);
     // console.log(totalMoney);
-
+    depositAmount.value='';
     // Total deposit here
     if(totalDepositAmount>0){
         allDeposit.innerText =totalDeposit+totalDepositAmount;
@@ -28,7 +28,7 @@ document.getElementById("add-here").addEventListener("click", function() {
         return alert("Please! Input a valid transaction!!");
     }
     // console.log(totalMoney)
-    depositAmount.value='';
+    
   });
 
 
@@ -53,6 +53,8 @@ document.getElementById("withdraw-here").addEventListener("click", function() {
     const totalMoney = parseFloat(allMoneyText);
     console.log(totalMoney);
 
+
+    withdrawAmount.value='';
     // Total Withdraw here
 
     if(totalWithdrawAmount>0 && totalMoney>=totalWithdrawAmount){
@@ -63,5 +65,5 @@ document.getElementById("withdraw-here").addEventListener("click", function() {
         return alert("Please! Input a valid transaction!!");
     }
     // console.log(totalMoney)
-    withdrawAmount.value='';
+   
   });
